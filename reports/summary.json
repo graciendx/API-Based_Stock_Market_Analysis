@@ -1,0 +1,57 @@
+{
+  "title": "Apple Equity Risk and Macroeconomic Context",
+  "author": "Grace Ngo",
+  "scope": "Historical, descriptive analysis; observation-period macro labels, not real-time signals.",
+  "analysis_start_month": "2000-01",
+  "analysis_end_month": "2024-12",
+  "apple_snapshot_last_date": "2025-01-03",
+  "excluded_terminal_month": "2025-01",
+  "benchmark_base_date": "2015-12-31",
+  "benchmark_end_date": "2024-12-31",
+  "benchmark_return_months": 108,
+  "aapl_overlap": {
+    "months": 108,
+    "cumulative_price_return": 8.516245224652163,
+    "annualized_geometric_price_return": 0.28445354814171697,
+    "annualized_monthly_volatility": 0.28056309016572145,
+    "worst_month": -0.18404458862727302,
+    "negative_month_share": 0.4074074074074074,
+    "maximum_month_end_drawdown": -0.30703333431648827
+  },
+  "sp500_overlap": {
+    "months": 108,
+    "cumulative_price_return": 1.8775942542344728,
+    "annualized_geometric_price_return": 0.12461347838580261,
+    "annualized_monthly_volatility": 0.1552903546354517,
+    "worst_month": -0.12511932083595656,
+    "negative_month_share": 0.3148148148148148,
+    "maximum_month_end_drawdown": -0.2476952192321734
+  },
+  "relative_wealth_at_end": 3.307014257013034,
+  "down_market_months": 34,
+  "up_market_months": 74,
+  "aapl_mean_return_in_down_market_months": -0.03294614959279886,
+  "sp500_mean_return_in_down_market_months": -0.04042542150671293,
+  "downside_capture_ratio": 0.8522169279176166,
+  "upside_capture_ratio": 1.4055988468215324,
+  "monthly_return_correlation": 0.6760444807491809,
+  "limitations": [
+    "Price-only benchmark comparison; dividends, fees and taxes excluded.",
+    "Snapshot values may be revised; macro labels are known ex post.",
+    "One surviving company; no causal attribution, alpha estimate or trading backtest.",
+    "Volatility annualization uses sqrt(12); month-end drawdown misses intramonth troughs.",
+    "Price and adjusted-price vendor provenance and retrieval date were not supplied."
+  ],
+  "input_sha256": {
+    "apple_stock.csv": "862d01cad729367d9ee958001ebca7c7480d043a20b5be8010ce147d2e8fa2ce",
+    "fred_cpi.csv": "a720ceb49908562d9da0a8560076b94834efeffb0adeda218b99c43c7f763762",
+    "fred_fedfunds.csv": "ee1ce57f01d7575315d5c2797b986f2a4bfe221af26887d52f167761e1f84d62",
+    "fred_gdp.csv": "6b6f2b2a268dae717aaf092744f1d474c17f8b17ccebe4bc8fd7527dc282800d",
+    "fred_recession.csv": "f3975a98745ad11753aa67b4495a6ebce540d30184c4d48b5e60bfe727dd207b",
+    "fred_sp500.csv": "36ca5bd93564a1582bb20a09996adb09caa9fb1ede7cef541eefb38e32a024d9"
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  }
+}

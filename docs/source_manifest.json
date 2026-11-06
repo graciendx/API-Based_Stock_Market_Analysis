@@ -1,0 +1,77 @@
+{
+  "author": "Grace Ngo",
+  "original_context": "DATA 200, Fall 2025, Dickinson College",
+  "review_date": "2026-11-03",
+  "files": [
+    {
+      "path": "data/snapshots/apple_stock.csv",
+      "rows": 11107,
+      "first_observation": "1980-12-12",
+      "last_observation": "2025-01-03",
+      "sha256": "862d01cad729367d9ee958001ebca7c7480d043a20b5be8010ce147d2e8fa2ce",
+      "series_id": null,
+      "definition": "Apple OHLCV and adjusted close; vendor and retrieval date not supplied",
+      "retrieval_date": null
+    },
+    {
+      "path": "data/snapshots/fred_cpi.csv",
+      "rows": 549,
+      "first_observation": "1980-01-01",
+      "last_observation": "2025-09-01",
+      "sha256": "a720ceb49908562d9da0a8560076b94834efeffb0adeda218b99c43c7f763762",
+      "series_id": "CPIAUCSL",
+      "definition": "CPI level, monthly, seasonally adjusted",
+      "retrieval_date": null
+    },
+    {
+      "path": "data/snapshots/fred_fedfunds.csv",
+      "rows": 551,
+      "first_observation": "1980-01-01",
+      "last_observation": "2025-11-01",
+      "sha256": "ee1ce57f01d7575315d5c2797b986f2a4bfe221af26887d52f167761e1f84d62",
+      "series_id": "FEDFUNDS",
+      "definition": "Effective funds rate, percent, monthly",
+      "retrieval_date": null
+    },
+    {
+      "path": "data/snapshots/fred_gdp.csv",
+      "rows": 182,
+      "first_observation": "1980-01-01",
+      "last_observation": "2025-04-01",
+      "sha256": "6b6f2b2a268dae717aaf092744f1d474c17f8b17ccebe4bc8fd7527dc282800d",
+      "series_id": "GDPC1",
+      "definition": "Real GDP, quarterly, billions of chained 2017 dollars at seasonally adjusted annual rate",
+      "retrieval_date": null
+    },
+    {
+      "path": "data/snapshots/fred_recession.csv",
+      "rows": 551,
+      "first_observation": "1980-01-01",
+      "last_observation": "2025-11-01",
+      "sha256": "f3975a98745ad11753aa67b4495a6ebce540d30184c4d48b5e60bfe727dd207b",
+      "series_id": "USREC",
+      "definition": "Monthly retrospective recession indicator",
+      "retrieval_date": null
+    },
+    {
+      "path": "data/snapshots/fred_sp500.csv",
+      "rows": 2514,
+      "first_observation": "2015-12-17",
+      "last_observation": "2025-12-16",
+      "sha256": "36ca5bd93564a1582bb20a09996adb09caa9fb1ede7cef541eefb38e32a024d9",
+      "series_id": "SP500",
+      "definition": "Daily closing price index, no dividends",
+      "retrieval_date": null
+    }
+  ],
+  "source_documents": [
+    {
+      "name": "Final Data 200.ipynb",
+      "sha256": "4c3e5522f44cfbd28961f13cf8fa15a5a9bfd1e424a581e97626b102e5cd046a"
+    },
+    {
+      "name": "Final Data 200.pdf",
+      "sha256": "5357211b0f533ea3dc980adfbec400cbe5ece55dce2927003ef2b2796b5ee656"
+    }
+  ]
+}
